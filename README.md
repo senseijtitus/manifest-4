@@ -1,43 +1,29 @@
-GZOSP
-========
+# ConquerOS Project
 
-To initialize your local repository, use this command:
+#### Work In Progress
+So don't hope build will run seamlessly!
 
-	repo init -u https://github.com/GZOSP/manifest.git -b 10.0
+## Start download repository
+```
+repo init -u https://github.com/ConquerOS/manifest.git -b ten
+```
 
-Submitting Patches
-------------------
+But if you want to use less storage you can do shallow sync by
+```
+repo init --depth=1 -u https://github.com/ConquerOS/manifest.git -b ten
+```
 
-We're open source, and patches are always welcome!
-To do this, you will need an account setup with our gerrit server and a changeid hooks.
-To add the changeid hook in a project, use the following commands:
+The sync up
+```
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
 
-	cd <project>
-	scp -p -P 29418 <username>@review.gzospgzr.com:hooks/commit-msg ${gitdir}/hooks/
-
-You can also install the hook globally in all local GZOSP projects
-
-	repo forall -c 'gitdir=$(git rev-parse --git-dir); scp -p -P 29418 <username>@review.gzospgzr.com:hooks/commit-msg ${gitdir}/hooks/'
-
-Go have a coffee while this runs
-
-You can send patches by using these commands:
-
-    cd <project>
-    git add --all
-    git commit
-    git push ssh://<username>@review.gzospgzr.com:29418/GZOSP/<project> HEAD:refs/for/<branch>
-
-This will commit your changes into a single commit.
-Make sure your git has the changeid hooks added.
-If you are going to make extra additions, just repeat steps, but instead of
-
-	git commit
-
-use
-
-	git commit --amend
-
-Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [GZOSP Code Review](http://review.gzospgzr.com)
+## Start compilation
+```
+source build/envsetup.sh
+vivi <DEVICE>
+```
+Example
+```
+vivi mido
+```
