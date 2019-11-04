@@ -659,10 +659,10 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- GZOSP manifest -->
-  <include name="gzosp_default.xml" />
+  <!-- ConqurorOS manifest -->
+  <include name="snippets/conqueros.xml" />
 
   <!-- CAF manifest -->
-  <include name="caf_default.xml" />
+  <include name="snippets/caf.xml" />
 
 </manifest>
