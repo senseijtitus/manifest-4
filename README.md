@@ -3,6 +3,8 @@
 #### Work In Progress
 So don't hope build will run seamlessly!
 
+![ConquerOS](https://raw.githubusercontent.com/ConquerOS/manifest/ten/logo.png)
+
 ## Start download repository
 ```
 repo init -u https://github.com/ConquerOS/manifest.git -b ten
