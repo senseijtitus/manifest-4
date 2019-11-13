@@ -51,7 +51,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="conquer" />
   <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="gzosp" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library-nxp" remote="conquer" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="conquer" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
   <project path="external/json-c" name="external_json-c" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
