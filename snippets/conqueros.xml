@@ -48,7 +48,7 @@
 
   <project path="art" name="art" groups="pdk" remote="conquer" />
   <project path="bionic" name="bionic" remote="conquer" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="conquer" />
   <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="gzosp" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library-nxp" remote="conquer" />
@@ -56,32 +56,32 @@
   <project path="external/json-c" name="external_json-c" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="conquer" />
   <project path="frameworks/base" name="frameworks_base" remote="conquer" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="gzosp" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="conquer" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="conquer" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
   <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer" />
-  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="gzosp" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="gzosp" />
-  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="gzosp" />
-  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="gzosp" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="gzosp" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="conquer" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="conquer" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="conquer" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="conquer" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="conquer" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="conquer" />
   <project path="packages/apps/ConquerSettings" name="packages_apps_ConquerSettings" groups="pdk-fs" remote="conquer" />
   <project path="packages/apps/Email" name="packages_apps_Email" groups="pdk-fs" remote="conquer" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="conquer" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gzosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="conquer" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="gzosp" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="conquer" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="conquer" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="gzosp" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="conquer" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" groups="pdk-fs" remote="conquer" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
-  <project path="system/bt" name="system_bt" remote="gzosp" />
-  <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="conquer" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="conquer" />
+  <project path="system/bt" name="system_bt" remote="conquer" />
+  <project path="system/core" name="system_core" groups="pdk" remote="conquer" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="conquer" />
   <project path="vendor/conquer" name="vendor_conquer" remote="conquer" />
   <project path="vendor/conquerui" name="vendor_conquerui" remote="conquer" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" clone-depth="1" />

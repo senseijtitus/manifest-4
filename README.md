@@ -23,9 +23,6 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ## Start compilation
 ```
 source build/envsetup.sh
-vivi <DEVICE>
-```
-Example
-```
-vivi mido
+lunch conquer_DEVICE-userdebug
+mka carthage
 ```
