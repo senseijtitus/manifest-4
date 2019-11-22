@@ -12,7 +12,7 @@ repo init -u https://github.com/ConquerOS/manifest.git -b ten
 
 But if you want to use less storage you can do shallow sync by
 ```
-repo init --depth=1 -u https://github.com/ConquerOS/manifest.git -b ten
+repo init --depth=1 -u https://github.com/ConquerOS/manifest.git -b ten-carthage
 ```
 
 The sync up
