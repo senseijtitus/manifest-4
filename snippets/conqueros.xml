@@ -58,6 +58,7 @@
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="conquer" />
   <project path="frameworks/base" name="frameworks_base" remote="conquer" />
+  <project path="frameworks/CarthageCore" name="frameworks_CarthageCore" remote="conquer" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="conquer" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="conquer" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
@@ -83,7 +84,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="conquer" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="conquer" />
   <project path="vendor/conquer" name="vendor_conquer" remote="conquer" />
-  <project path="vendor/conquerui" name="vendor_conquerui" remote="conquer" />
+  <project path="vendor/conquerui" name="vendor_conquerui" remote="conquer" revision="ten-carthage" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" clone-depth="1" />
 
   <!-- Prebuilts -->
